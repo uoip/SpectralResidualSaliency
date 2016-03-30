@@ -1,15 +1,9 @@
-/*
-paper: "Saliency Detection: A Spectral Residual Approach" Xiaodi Hou, Liqing Zhang CVPR2007.
-
-ported from http://www.mathworks.com/matlabcentral/fileexchange/38512-visual-scanpaths-via-constrained-levy-exploration-of-a-saliency-landscape/content/CLE/saltool/SpectralR/SpectralResidualSaliency.m
-*/
-
 #include <opencv2/opencv.hpp>
 
 int main()
 {
-	cv::Mat img = cv::imread(test.jpg);
-	cv::cvtColor(img, img, CV_BGR2GRAY);
+    cv::Mat img = cv::imread(test.jpg);
+    cv::cvtColor(img, img, CV_BGR2GRAY);
     float ratio = 128.0 / img.cols;
     cv::resize(img, img, cv::Size(img.cols*ratio, img.rows*ratio));
 
