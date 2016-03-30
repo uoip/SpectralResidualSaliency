@@ -3,11 +3,10 @@
 
 ![detection example](example.png "saliency map")
 
-C++ port of [a MATLAB implementation](http://www.mathworks.com/matlabcentral/fileexchange/38512-visual-scanpaths-via-constrained-levy-exploration-of-a-saliency-landscape/content/CLE/saltool/SpectralR/SpectralResidualSaliency.m)
+C++ port of [a MATLAB implementation](http://www.mathworks.com/matlabcentral/fileexchange/38512-visual-scanpaths-via-constrained-levy-exploration-of-a-saliency-landscape/content/CLE/saltool/SpectralR/SpectralResidualSaliency.m).
 
 
-
-### dependency
+### Dependency
 * OpenCV
 
 ### Reference
@@ -18,3 +17,4 @@ author = {Xiaodi Hou, Liqing Zhang},
 booktitle={Conference on Computer Vision and Pattern Recognition (CVPR)},
 year = {2007}}
 ```
+Find the publication at www.houxiaodi.com/assets/papers/cvpr07.pdf
