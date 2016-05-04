@@ -2,7 +2,7 @@
 
 int main()
 {
-    cv::Mat img = cv::imread(test.jpg);
+    cv::Mat img = cv::imread("test.jpg");
     cv::cvtColor(img, img, CV_BGR2GRAY);
     float ratio = 128.0 / img.cols;
     cv::resize(img, img, cv::Size(img.cols*ratio, img.rows*ratio));
