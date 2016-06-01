@@ -1,7 +1,7 @@
 import numpy as np
 import cv2
 
-WIDTH = 128   # has a great influence on the results
+WIDTH = 128   # has a great influence on the result
 
 if __name__ == '__main__':
 	img = cv2.imread('test.jpg', 0)
