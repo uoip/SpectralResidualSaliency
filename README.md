@@ -1,11 +1,11 @@
 # Spectral Residual Saliency Detection
 ![detection example](example.png "saliency map")
 
-C++ port of [a MATLAB implementation](http://www.mathworks.com/matlabcentral/fileexchange/38512-visual-scanpaths-via-constrained-levy-exploration-of-a-saliency-landscape/content/CLE/saltool/SpectralR/SpectralResidualSaliency.m).
+C++/Python port of [a MATLAB implementation](http://www.mathworks.com/matlabcentral/fileexchange/38512-visual-scanpaths-via-constrained-levy-exploration-of-a-saliency-landscape/content/CLE/saltool/SpectralR/SpectralResidualSaliency.m).
 
 
 ### Dependency
-* OpenCV
+- OpenCV
 
 ### Reference
 ```
